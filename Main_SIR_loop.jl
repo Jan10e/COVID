@@ -5,7 +5,7 @@
 ##############################################################
 
 # working directory
-cd("//Users/jantinebroek/Documents/03_prog_comp/02_collab/COVID")
+cd("/Users/jantinebroek/Documents/03_prog_comp/02_collab/Covid19/COVID")
 
 # Loads packages
 using Plots
@@ -15,7 +15,7 @@ pyplot()    # Plots package will use Pyplot (matplotlib needs to be installed).
 include("updateSIR.jl")
 
 # parameters
-λ = 1/2000
+λ = 1/5000
 γ = 1/10
 
 # input
